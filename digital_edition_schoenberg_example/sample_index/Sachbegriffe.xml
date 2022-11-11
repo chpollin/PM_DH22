@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="items" telota:doctype="register"
+   xmlns:telota="http://www.telota.de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item xml:id="item.1">
+               <idno type="uri">https://d-nb.info/gnd/4060993-5</idno>
+               <label type="reg">Trompete</label>
+               <desc>...</desc>
+            </item>
+            <item xml:id="item.2">
+               <idno type="uri">https://d-nb.info/gnd/4060993-5</idno>
+               <label type="reg">Matrize</label>
+               <desc>...</desc>
+            </item>
+            <item xml:id="item.3"><idno type="uri">https://d-nb.info/gnd/4323939-0</idno>
+               <label type="reg">Druckplatte</label>
+               <desc>...</desc>
+            </item>
+            <item xml:id="item.4"><idno type="URI">https://d-nb.info/gnd/4392728-2</idno><label type="reg"
+                  >Fahne</label><desc>Korrekturabzug von einem gesetzten Text auf losen Blättern vor
+                  dem Umbruch</desc></item>
+         </list>
+      </body>
+   </text>
+</TEI>

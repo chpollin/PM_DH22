@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<memo>
+	<body>
+		<p>Hello Git from ${VORNAME}</p>
+	</body>
+</memo>

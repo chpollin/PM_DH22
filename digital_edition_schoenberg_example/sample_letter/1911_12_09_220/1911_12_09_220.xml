@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.220"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 9. Dezember 1911</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Herausgeberschaft</term></resp>
+                </respStmt>
+                <respStmt>
+                    <persName><forename>Katharina</forename>
+                        <surname>Bleier</surname></persName>
+                    <resp>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                        <term>Herausgeberschaft</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName><forename>Christopher</forename>
+                        <surname>Pollin</surname></persName>
+                    <resp>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName><forename>Philipp</forename><surname>Kehrer</surname></persName>
+                    <resp>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName><forename>N.</forename><surname>N.</surname></persName>
+                    <resp>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName><forename>N.</forename><surname>N.</surname></persName>
+                    <resp>
+                        <term>Studentische Mitarbeit</term>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace>Wien</pubPlace>
+               
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA) 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence between Arnold Schönberg and his Publishers
+                    Universal-Edition and Verlag Dreililien. A Critical Hybrid Edition</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement><placeName key="place.9.11">Wien</placeName></settlement>
+                        <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <settlement><placeName key="place.9.11">Wien</placeName></settlement>
+                            <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                                Center</institution>
+                            <idno type="signature">ASCC ID 220</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listBibl>
+                	<bibl xml:id="bibl.1"><title>Lorem Ipsum 1</title></bibl>
+                	<bibl xml:id="bibl.2"><title>Lorem Ipsum 2</title></bibl>
+                	<bibl xml:id="bibl.3"><title>Lorem Ipsum 3</title></bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="p_99"> (Thessaloniki-Oświęcim)</persName>
+                    <placeName key="place.15.7.1"> - </placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="p_137"> (Vevey-Genf)</persName>
+                    <orgName key="org.90">Wiener Staatsoper</orgName>
+                    <placeName key="place.1.1.1"> - </placeName>
+                </correspAction>
+            </correspDesc>
+            <!--<correspDesc>
+                <correspAction type="sent">
+                    <persName key="p_3263">
+                        <forename>Arnold</forename>
+                        <surname>Schönberg</surname>
+                    </persName>
+                    <placeName key="place.2.1">Berlin</placeName>
+                    <date when="1911-12-09" calendar="#Gregorian"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <persName key="p_1538">
+                        <forename>Emil</forename>
+                        <surname>Hertzka</surname>
+                    </persName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <note/>
+                <correspContext>
+                    <ref type="prev" target="linkzumletzten Brief"/>
+                    <ref type="next" target="linkzumnächsten Brief"/>
+                </correspContext>
+            </correspDesc>-->
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-09-20" who="PK">Kodierung</change>
+            <!-- Verwendung nach Veröffentlichung für nachträgliche Änderungen -->
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="page.1"/><opener><stamp xml:id="stamp.6">
+                        <persName key="p_3263">Arnold Schönberg</persName>, Berlin-Zehlendorf-Wannseebahn<lb/>
+                        <location>
+                            <placeName key="place.2.38.2">Machnower Chaussee, Villa
+                                Lepcke</placeName>
+                        </location>. </stamp><dateline rendition="#l"><date when="1911-12-09"
+                            calendar="#Gregorian">9/12.1911</date></dateline>
+                    <add place="right"><stamp>Erledigt</stamp></add></opener>
+                <p><seg type="salute">Lieber <persName key="p_294">Herr Direktor</persName>,</seg>
+                    das war schade, dass wir uns nicht mehr getroffen haben. Ich habe <lb/>von dem,
+                    was Sie ins Telefon sprachen, nur wenig gehört; denn sehr bald war mein
+                    Anschluss <lb/>plötzlich tot und meine Wiederbelebungsversuche blieben
+                    erfolglos. <lb/>Ich muss mit Bleistift schreiben, denn ich habe Schreibkrampf.
+                    </p><p>Also: die 3 Exemplare der <bibl sameAs="schriften.1">Harmonielehre</bibl>
+                    habe ich erhalten „und hab mich sehr gefreut“.  <lb/>Das heißt eigentlich war
+                    ich verstimmt, was ich stets bin, so oft ich ein gedrucktes Werk von  <lb/>mir
+                    in die Hand bekomme. Dann kann ich es zuerst lange nicht ansehen, vor Ekel und
+                    <lb/>Katzenjammer. Es dauert dann geraume Zeit, bis ich wieder daran
+                    glaube.</p><p> Was Ihre Frage über die Versendung von Frei-Exemplaren an
+                    Musikkritiker anbelangt, so  <lb/>muss ich das ganz Ihnen überlassen. Es ist mir
+                    wirklich nicht möglich, die kleinen Nuancen  <lb/>zu unterscheiden um die der
+                        <seg type="comment"><orig>Kohn weniger schlecht ist als der Stangelbauer
+                            oder der  <lb/>Plutzenhuber</orig><note xml:id="newl_g34_rsb">Es handelt
+                            sich hierbei vermutlich um Fantasienamen</note></seg>. Jedenfalls bin
+                    ich mit Ihnen sehr einverstanden, möglichst wenig  <lb/>Freiexemplare an diesem
+                    Gesindel in den Rachen zu werfen. Ich möchte Ihnen vorschlagen  <lb/>(da Sie ja
+                    wahrscheinlich nicht davon absehen werden wollen, <subst>
+                        <del rendition="#ow">den</del>
+                        <add place="across">die</add>
+                    </subst> „besseren“ Kritikern  <lb/>bedeutenderer Blätter zu bedenken)
+                    wenigstens den anerkannt schlechteren Kritikern, der  <lb/>unbedeutendsten
+                    Blätter Exemplare nur dann zu geben, wenn sie darum ersuchen. Dagegen  <lb/>bin
+                    ich einverstanden, da wenn Sie jenen Fach- und Kunstzeitschriften, die mir
+                    befreundet  <lb/>sind welche schicken wollen (<orgName key="org.58"
+                        >Merker</orgName>, Musik, Rheinische Musik-Zeitung, Pan, etc) ferner
+                    <lb/>1) bitte ich Sie an Herrn <add place="mBottom">Adresse: München, <placeName
+                            key="place.2.1.1">Ainmillerstr. 36</placeName></add>
+                    <persName key="p_107">W. Kandinsky</persName>, Maler (der ab Jänner eine neue
+                        <seg type="comment"><orig>Kunstzeitschrift</orig><note xml:id="nq13_dp4_rsb"
+                                ><orgName key="org.99">Der Blaue Reiter</orgName> darin enthalten
+                            von Schönberg Schrift Das Verhältnis zum Text sowie das Faksimile von
+                            Herzgewächse op. 20 (<ref
+                                target="http://archive.schoenberg.at/compositions/manuskripte.php?werke_id=442&amp;id_quelle=1255&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >Quelle Ca</ref>)</note></seg>
+                    <lb/>herausgiebt) und mit dem ich befreundet bin, ein Exemplar zu schicken.
+                    Ebenso Herrn <persName key="p_99">Carl  <lb/>Einstein</persName> in <placeName
+                        key="place.1.1">Wilmersdorf-Berlin, Jenaerstr. 26</placeName>, der Sie darum
+                    ersuchen wird. Er giebt auch  <lb/>eine <seg type="comment"
+                            ><orig>Kunstzeitschrift</orig><note xml:id="nshy_4p4_rsb">Neue Blätter.
+                            Hrsg. von Carl Einstein und Jakob Hegner. Jg. 1 (insges. 3 Folgen).
+                            Berlin: Erich Baron Verlag 1912. Vgl. hierzu den Brief von Carl Einstein
+                            an Arnold Schönberg (undatiert, ca. Herbst 1911) <ref
+                                target="http://archive.schoenberg.at/letters/letters.php?id_letters=10556&amp;action=view&amp;sortieren=id%20DESC&amp;vonBis=0-19"
+                                >ASCC ID 10556</ref></note></seg> heraus.</p><p> Dann bitte ich Sie
+                    je ein gebundenes Exemplar zu schicken bitte beantworten Sie die rot
+                    bezeichneten Fragen! an: II. Frau Alma Mahler Frau Justine Rosé 2) Herrn Karl
+                    Moll und } so bald wie möglich* an Karl Kraus </p><p>Ich lege diesem Brief
+                    kleine Begleitschreiben bei, die Sie so freundlich sein werden mit den in die
+                    Bücher hineinzugeben. Dann eines an Zemlinsky in Prag* Nun danke ich Ihnen noch
+                    sehr für die Mahler-Symphonie und das Lied von der Erde. Das ist sehr lieb von
+                    Ihnen, dass Sie an mich gedacht haben. Was Weberns Aufsatz anbelangt, so bitte
+                    ich Sie, ehe Sie sich an Webern wenden, den Aufsatz zu lesen und sich zu
+                    entscheiden, ob Sie ihn bringen wollen. Ich kenne den Aufsatz schon und er
+                    gefällt mir sehr, denn er ist außerordentlich warm, ohne jede Schmockerei und
+                    sagt zum erstenmal wirklich Richtiges über meine Melodik und meine Technik. Ob
+                    er sich für Ihre Zwecke eignet kann 3) und mag ich nicht beurteilen, möchte aber
+                    jedenfalls dem Webern die Kränkung einer Ablehnung ersparen. Aber ich hoffe
+                    bestimmt, dass er Ihnen gefällt!! Jedenfalls wird Ihnen Webern keine
+                    Schwierigkeiten machen, wenn Sie den Aufsatz bringen verwenden wollen und sich
+                    mit einem Ehrenhonorar begnügen. Ihrem Wunsch im Sternschen Konservatorium einen
+                    Prospekt zu verteilen, kann ich nicht nachkommen. Es tut mir leid, aber ich muss
+                    solche Dinge unbedingt vermeiden. Aber ich bin sicher, dass der Direktor,
+                    Professor Gustav Holländer, der sich sehr für mich interessiert, etwas in dieser
+                    Sache tun wird, wenn Sie ihn darum angehen. Möchten Sie nicht an Nikisch ein
+                    Exemplar der Orchesterlieder schicken. Frau Wolff will ihn zu einer Aufführung
+                    bewegen. Eventuell zur Ansicht auch die Pelleas-Partitur! Nun etwas sehr
+                    Wichtiges:</p>
+                <p>Die Wiener Autoren Gesellschaft hat beschlossen: 4) die ihr übertragenen Werke
+                    sollen noch 10 Jahre nach dem Austritt eines Mitgliedes ihr zur Verwaltung
+                    überlassen bleiben. Bis zum 1. Jänner müsste man sich entscheiden ob man unter
+                    dieser Bedingung Mitglied bleiben will. Ich finde diese Bedingung unannehmbar.
+                    Insbesondere, weil die Aut.Ges. gar nicht versteht, ernste Werke zu behandeln
+                    und nur für ihre Kuplets und Tänze arbeitet. Wäre nicht diese Pension, so hielte
+                    mich nichts vom Austritt ab. Könnten Sie da nicht darauf Einfluss nehmen, dass
+                    dieser Antr Beschluß rückgängig gemacht wird? Bitte schreiben Sie mir was ich
+                    tun soll! Ich habe von dieser famosen Gesellschaft noch keine Abrechnung
+                    bekommen!!!! Noch etwas sehr dringendes:</p> 
+            	<p>
+            	5) Bitte schicken Sie mir umgehend
+                die Matritzen meines II. Quartetts, damit ich die Fehler-Verbesserungen eintragen
+                kann. – Bitte, geben Sie das dann rasch zum Drucken und teilen Sie mir mit, wann die
+                neuen Exemplare kommen sollen. Nun für heute Schluss. Schreiben Sie mir, wie mein
+                Chor gefallen hat und schicken Sie mir die Kritiken. Ich retourniere sie. Viele
+                herzliche Grüße Ihr Arnold Schönberg
+            	</p>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+        <surface start="#page.1">
+            <graphic url="1913_07_08_6852/1913_07_08_6852_1.jpg" xml:id="IMG.1"/>
+        </surface>
+
+    </facsimile>
+</TEI>
